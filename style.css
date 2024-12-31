@@ -1,0 +1,801 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main,header {
+    background-color: #040405;
+    padding: 28px 200px;
+}
+
+body {
+    background-color: #040405;
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #FFFFFF;
+    padding-right: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:hover {
+    color: #00FF1A;
+}
+.conect {
+    display: flex;
+    padding: 12px 24px;
+    text-decoration: none;
+    gap: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 24px;
+    background-color: #00FF1A;
+}
+
+.conect:hover {
+    color: red;
+}
+
+/* main */
+
+.velcomeBox {
+    display: flex;
+    align-items: center;
+    margin-top: 112px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+/* ეს არის მრავალჯერ გამოყენებული ხაზი */
+.greenVector {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+/* ესეც არის მრავალჯერ გამოყენებული ხაზი */
+.stroke {
+    width: 91px;
+    height: 1px;
+    border-bottom: 1px solid #00FF1A;
+}
+
+.welcome {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+h1 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.deposit {
+    text-transform: capitalize;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.stake {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #00FF1A;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.stake:hover,.works:hover {
+    color: red;
+}
+
+.works {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+}
+
+.numberBox {
+    display: inline-flex;
+    padding-top: 24px;
+    margin-top: 112px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-top: 1px solid #00FF1A;
+}
+
+.number  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.spanOne {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.spanTwo {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.boostedBox {
+    display: flex;
+    margin-top: 100px;
+    align-items: flex-start;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+/* ეს არის სურათის ზომა */
+
+.frogee {
+    width: 451px;
+    height: 475px;
+}
+
+.bostedText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.liquid {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.winthdrawals  {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.rectangle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #00FF1A;
+}
+
+.winthdrav {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.boost {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.winthdravv {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.boostt {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.worksBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 97px;
+    gap: 32px;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+
+.iconi a{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #00FF1A;
+    background-color: #00ff1a1a;
+}
+
+.registerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.border {
+    padding: 10px;
+    border-right: 1px solid #4A4A4E;
+}
+
+h4 {
+    text-transform: capitalize;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.depositt{
+    display: flex;
+    align-items: center;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.stakers {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 102px;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+.stakersBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.stakeEarn {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.depositBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+
+.depositOne {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-left: 2px solid #00FF1A;
+}
+
+.deposittwo {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+}
+
+.span {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.spans {
+    text-transform: capitalize;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.testimonialsContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 112px;
+    gap: 24px;
+}
+
+.testimonialsOne {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 24px;;
+}
+
+.testimonialsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #1C1C20;
+}
+
+.testimonnials {
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonialsTexticon {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.testimonialsText {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.testimonialstextBox {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.testimonialsNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsRate {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    align-self: stretch;
+}
+
+.testimonialsName {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.manName {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.city {
+    text-transform: capitalize;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.testimonialsStars {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.amazing {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.pellentesque {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.greenText {
+    color: #00FF1A;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.numberReverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialsArrow {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.arrowLefts {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #F8F8F8;
+}
+
+.arrowRights {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #00FF1A;
+}
+
+.supportContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.customerBox {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: #1C1C20;
+}
+
+.customerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.customerHeader {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.questions {
+    padding: 10px 0 10px 0;
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 136.023%;
+    letter-spacing: 0.77px;
+}
+
+.callphoneBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.greenPhone {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #00FF1A;
+}
+
+.phoneNumber {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.testimonialsTwo {
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background-color: #1C1C20;
+}
+
+.testimonialsBoxtwo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.leaveMassege {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.input {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: transparent;
+}
+
+.description {
+    display: flex;
+    color: #FFFFFF;
+    width: 328px;
+    height: 155px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #565656;
+    background-color: transparent;
+}
+
+.submit {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #00FF1A;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.submit:hover {
+    color: red;
+    background-color: #000000;
+}
+
+.footerBox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 200px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-top: 1px solid #00FF1A;
+    margin-top: 225px;
+    background-color: #040405;
+}
+
+.company,.community {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+h6 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footerText {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.folow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.folowUs > img{
+    padding: 5px;
+}
